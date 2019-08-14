@@ -2,13 +2,17 @@ import React from "react";
 import "./App.css";
 import Booklist from "./components/Booklist";
 
-function App() {
-  return (
-    <div>
+
+
+class App1 extends React.Component {
+  render(){
+    return (<div>
       HTest
       {<Booklist />}
     </div>
-  );
+
+    )
+  }
 }
 
-export default App;
+export default App1;
